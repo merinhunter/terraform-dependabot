@@ -4,7 +4,7 @@ resource "random_pet" "this" {
 
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
-  version = "4.0.0"
+  version = "4.1.2"
 
   bucket        = random_pet.this.id
   force_destroy = true
