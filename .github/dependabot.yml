@@ -9,3 +9,4 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "chore(misc): "
+    versioning-strategy: lockfile-only
